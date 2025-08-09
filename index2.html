@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bus Charter Service</title>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, sans-serif;
+    }
+    body {
+        background-color: #f9f9f9;
+        color: #333;
+    }
+    /* Hero Section */
+    .hero {
+        position: relative;
+        background: url('/9e8b50dafdd0f26a6387b4f748c809c5.jpg') no-repeat center center/cover;
+        height: 400px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        text-align: left;
+    }
+    .hero h1 {
+        font-size: 36px;
+        font-weight: bold;
+        max-width: 400px;
+        line-height: 1.2;
+    }
+    .booking-form {
+        position: absolute;
+        bottom: -25px;
+        background: white;
+        padding: 15px;
+        display: flex;
+        gap: 10px;
+        border-radius: 8px;
+        box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+    .booking-form select, .booking-form input {
+        padding: 8px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+    .booking-form button {
+        background: #2563eb;
+        color: white;
+        border: none;
+        padding: 8px 15px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    /* Our Services */
+    .section {
+        padding: 50px 10%;
+    }
+    .services, .fleet {
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        margin-top: 20px;
+        flex-wrap: wrap;
+    }
+    .service-box {
+        background: white;
+        padding: 20px;
+        text-align: center;
+        border-radius: 8px;
+        width: 150px;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    }
+    .service-box img {
+        width: 40px;
+        margin-bottom: 10px;
+    }
+    /* Fleet */
+    .fleet-box {
+        background: white;
+        border-radius: 8px;
+        overflow: hidden;
+        width: 250px;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+        text-align: center;
+    }
+    .fleet-box img {
+        width: 100%;
+        display: block;
+    }
+    .fleet-box p {
+        margin: 10px 0;
+        font-weight: bold;
+    }
+    .fleet-box button {
+        background: #2563eb;
+        color: white;
+        border: none;
+        padding: 10px;
+        width: 100%;
+        cursor: pointer;
+    }
+    /* Why Choose Us */
+    .why {
+        display: flex;
+        align-items: center;
+        gap: 50px;
+        flex-wrap: wrap;
+    }
+    .why ul {
+        list-style: none;
+    }
+    .why li {
+        margin-bottom: 10px;
+        position: relative;
+        padding-left: 25px;
+    }
+    .why li::before {
+        content: '✔';
+        position: absolute;
+        left: 0;
+        color: #2563eb;
+    }
+    .why img {
+        width: 250px;
+        border-radius: 8px;
+    }
+    /* Reviews and Contact */
+    .reviews-contact {
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+    .review-box, .contact-box {
+        background: white;
+        padding: 20px;
+        flex: 1;
+        border-radius: 8px;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+        min-width: 250px;
+    }
+    .stars {
+        color: gold;
+        font-size: 18px;
+    }
+    .contact-box button {
+        background: #2563eb;
+        color: white;
+        border: none;
+        padding: 10px;
+        width: 100%;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-top: 10px;
+    }
+</style>
+</head>
+<body>
+
+<!-- Hero Section -->
+<div class="hero">
+    <h1>Your Journey,<br>Our Comfort</h1>
+    <div class="booking-form">
+        <select>
+            <option>Pickup</option>
+        </select>
+        <select>
+            <option>Drop-off</option>
+        </select>
+        <input type="date">
+        <button>Get a Quote</button>
+    </div>
+</div>
+
+<!-- Our Services -->
+<div class="section">
+    <h2>Our Services</h2>
+    <div class="services">
+        <div class="service-box">
+            <img src="icon-city.png" alt="">
+            <p>City Tours</p>
+        </div>
+        <div class="service-box">
+            <img src="icon-school.png" alt="">
+            <p>School Trips</p>
+        </div>
+        <div class="service-box">
+            <img src="icon-corporate.png" alt="">
+            <p>Corporate Travel</p>
+        </div>
+    </div>
+</div>
+
+<!-- Fleet -->
+<div class="section">
+    <h2>Fleet</h2>
+    <div class="fleet">
+        <div class="fleet-box">
+            <img src="bus1.jpg" alt="">
+            <p>50 Seats</p>
+            <button>View Details</button>
+        </div>
+        <div class="fleet-box">
+            <img src="bus2.jpg" alt="">
+            <p>40 Seats</p>
+            <button>View Details</button>
+        </div>
+        <div class="fleet-box">
+            <img src="bus3.jpg" alt="">
+            <p>30 Seats</p>
+            <button>View Details</button>
+        </div>
+    </div>
+</div>
+
+<!-- Why Choose Us -->
+<div class="section">
+    <h2>Why Choose Us</h2>
+    <div class="why">
+        <ul>
+            <li>Safety First</li>
+            <li>Professional Drivers</li>
+            <li>Affordable Pricing</li>
+            <li>On-time Guarantee</li>
+        </ul>
+        <img src="driver.jpg" alt="">
+    </div>
+</div>
+
+<!-- Reviews and Contact -->
+<div class="section">
+    <h2>Customer Reviews</h2>
+    <div class="reviews-contact">
+        <div class="review-box">
+            <p class="stars">★★★★★</p>
+            <p>Great experience! The bus was clean and the driver was very professional.</p>
+        </div>
+        <div class="contact-box">
+            <p><strong>Contact Us</strong></p>
+            <p>1254 Main St. Anytown, USA</p>
+            <p>+123-488-7690</p>
+            <p>info@buecharter.com</p>
+            <button>Send</button>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
