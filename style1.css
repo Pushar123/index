@@ -2,7 +2,7 @@
         margin: 0;
         padding: 0;
         box-sizing: border-box;
-      font-family: Arial, sans-serif;
+      font-family: Arial, Helvetica, sans-serif;
     }
     body{
       background-color: #f3f2f1;
@@ -40,8 +40,8 @@
     }
   .btn3{
       padding: 10px 14px;
-      margin-left: -4px;
       background-color: #4C5AEA;
+      margin-left: -4px;
       color: white;
       border: none;
       border-radius: 2px;
@@ -68,7 +68,7 @@
       margin-left: 5px;
       margin-top: 10px;
       margin-right: 3px;
-      background-image: url("/x/bus-stop.png");
+      background-image: url("//bus-stop.png");
     }
     .plate h2{
       font-size: 16px;
@@ -161,8 +161,6 @@
   .customer{
     margin-top: 10%;
   }
-  .title h1{
-    margin-left: 20px;
   .profile img{
     height: 50px;
     width: 50px;
@@ -206,5 +204,4 @@
     margin-top: 10px;
     font-size: 16px;
   }
-
   
