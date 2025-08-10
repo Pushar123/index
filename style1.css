@@ -39,7 +39,8 @@
       margin-left: 3px;
     }
   .btn3{
-      padding: 12px 14px;
+      padding: 10px 14px;
+      margin-left: -4px;
       background-color: #4C5AEA;
       color: white;
       border: none;
