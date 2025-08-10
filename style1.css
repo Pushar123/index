@@ -161,6 +161,8 @@
   .customer{
     margin-top: 10%;
   }
+  .title h1{
+    margin-left: 20px;
   .profile img{
     height: 50px;
     width: 50px;
@@ -204,4 +206,5 @@
     margin-top: 10px;
     font-size: 16px;
   }
+
   
